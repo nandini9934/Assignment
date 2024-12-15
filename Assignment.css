@@ -1,0 +1,158 @@
+.heading {
+    text-align: center;
+    color: #ff6B82;
+
+}
+
+body {
+
+    justify-items: center;
+}
+#toggleButton1{
+    display: flex;
+    border: 2px solid #ff6B82;
+    border-width: 3px;
+    background-color: #fff9fa;
+    padding: 40px 40px;
+    margin-bottom:25px;
+}
+
+.outerbox {
+    justify-items: center;
+
+}
+
+.unit {
+    font-weight: bolder;
+}
+
+.off {
+    /* border: 1px solid rgb(234, 92, 116); */
+    background-color: #ff6B82;
+    /* margin-right: 20px; */
+    margin-left: 10px;
+    /* padding-right: 5px; */
+    padding: 0px 6px;
+    color: #fff;
+}
+
+.box {
+    display: inline-table;
+    margin-bottom: 10px;
+    margin-right: 120px;
+    font-size: large;
+}
+
+.row {
+    display: flex;
+    border: 2px solid grey;
+    padding: 40px 40px;
+    margin-bottom:25px;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.row-2 {
+    display: none;
+}
+
+.row-3 {
+    display: none;
+}
+
+del {
+    font-size: 13px;
+    color: #acb7c0;
+}
+
+.size {
+    margin-left: 26px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.color {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.one-box{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 2px;
+}
+
+.two-box {
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 2px;
+}
+
+.three-box{
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 10px;
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 2px;
+}
+
+select {
+    width: 75px;
+}
+
+.deliver {
+    font-size: large;
+    color:#ff6B82;
+    margin-right: 220px;
+}
+
+.delivery {
+    margin: 15px;
+}
+
+button {
+    padding: 10px 170px;
+    background-color: #ff6B82;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    margin-bottom:100px;
+}
+h1::before,
+h1::after {
+    background-color: rgb(189, 187, 187);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+    margin: 5px;
+}
+.header{
+    width: 100%;
+}
+.usd{
+    font-size: large;
+}
+.product-size{
+    margin-left: 30px;
+    font-size: 15px;
+}
+.product-color{
+    font-size: 15px;
+}
+input[type="radio"] {
+    accent-color: #ff6B82; /* Change the default color when selected */
+    width: 15px;
+    height: 15px;
+}
